@@ -1,0 +1,16 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px 100px;
+}
+
+.grid-item-1 {
+  background-color: aqua;
+}
+
+.grid-item-2 {
+  background-color: pink;
+}
+
+.grid-item-3 {
+  background-color: yellow;
+}
