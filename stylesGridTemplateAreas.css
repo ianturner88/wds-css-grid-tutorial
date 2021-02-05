@@ -5,7 +5,9 @@
   grid-gap: 300px;
   grid-row-gap: 20px;
   grid-column-gap: 20px;
-  grid-template-areas: 'header header header header';
+  grid-template-areas:
+    'header header header header'
+    'left centreLeft centreRight right';
 }
 
 .grid-item-1 {
@@ -14,17 +16,21 @@
 }
 
 .grid-item-2 {
+  grid-area: left;
   background-color: pink;
 }
 
 .grid-item-3 {
+  grid-area: centreRight;
   background-color: yellow;
 }
 
 .grid-item-4 {
+  grid-area: centreLeft;
   background-color: red;
 }
 
 .grid-item-5 {
+  grid-area: right;
   background-color: green;
 }
