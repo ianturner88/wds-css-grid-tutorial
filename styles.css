@@ -2,10 +2,14 @@
   display: grid;
   grid-template-columns: repeat(4, 100px);
   grid-auto-rows: minmax(150px, auto);
+  grid-gap: 300px;
   grid-row-gap: 20px;
+  grid-column-gap: 20px;
+  grid-template-areas: 'header header header header';
 }
 
 .grid-item-1 {
+  grid-area: header;
   background-color: aqua;
 }
 
