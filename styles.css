@@ -3,7 +3,6 @@
   grid-template-columns: 150px 250px;
   grid-auto-rows: minmax(50px, auto);
   grid-gap: 20px;
-  justify-content: center;
 }
 
 .grid-item-1 {
