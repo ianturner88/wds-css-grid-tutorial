@@ -1,0 +1,27 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 150px 250px;
+  grid-auto-rows: minmax(50px, auto);
+  grid-gap: 20px;
+  justify-content: center;
+}
+
+.grid-item-1 {
+  background-color: aqua;
+}
+
+.grid-item-2 {
+  background-color: pink;
+}
+
+.grid-item-3 {
+  background-color: yellow;
+}
+
+.grid-item-4 {
+  background-color: red;
+}
+
+.grid-item-5 {
+  background-color: green;
+}
